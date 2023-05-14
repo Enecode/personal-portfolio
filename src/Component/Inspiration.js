@@ -3,6 +3,9 @@ import axios from 'axios';
 import './Inspirations.css';
 import { Link } from 'react-router-dom'
 import Footer from './Footer';
+
+
+
 function Inspiration() {
   const [quote, setQuote] = useState('');
   const [author, setAuthor] = useState('');
