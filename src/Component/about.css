@@ -53,6 +53,12 @@
     font-size: 16px;
 }
 
+hr{
+    border: 1px solid #6e97ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 @media screen and (max-width: 768px){
     .profile-about {
         width: 100%;

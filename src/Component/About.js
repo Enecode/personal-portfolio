@@ -32,7 +32,7 @@ function About(){
             <button className="back-home-button"><Link className="back-home-button" to='/'>
                 Home
                 </Link></button>
-                <br/>
+                <hr />
                 <Footer /> 
         </div>
     )
