@@ -1,0 +1,71 @@
+.nav-container {
+    display: flex;
+    justify-content: center;
+  }
+
+.content-container{
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+  
+.nav-container > div {
+    justify-content: space-between;
+    justify-items: space-between;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+.about:hover{
+    color: #5a60ea;
+}
+.about{
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    border: 0 solid #fff
+}
+
+.project:hover{
+    color: #5a60ea;
+}
+.project{
+    margin: 20px;
+    /* width: 50%; */
+    /* background-color: #5a60ea; */
+    /* color: #5a60ea; */
+    text-align: center; 
+    font-size: 30px;
+    border-radius: 50px;
+    border: none;
+    background-color: #fff;
+    border: 0 solid #fff
+}
+
+.inspiration:hover{
+    color: #5a60ea;
+}
+.inspiration{
+    /* color: #5a60ea; */
+    text-align: center;
+    font-size: 30px;
+    border: none;
+    background-color: #fff;
+    border: 0 solid #fff
+}
+
+link{
+    text-decoration: none;
+    color: #5a60ea;
+}
+
+a:hover{
+    color: #5a60ea;
+}
+a{
+    text-decoration: none;
+    color: #5a60ea;
+}

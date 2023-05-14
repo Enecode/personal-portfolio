@@ -1,0 +1,196 @@
+.home-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.home-container > div {
+    background-color: #fff;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px; 
+}
+
+.myphoto{
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+strong{
+    font-family: Switzer,sans-serif;
+    font-weight: 700;
+}
+
+.header-title{
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+}
+
+.about-paragraph{
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    font-size: 16px;
+    line-height: 32.4px;
+}
+
+.about-container-holder{
+    color: #6e97ff;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Switzer,sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.about-header-container{
+    width: auto;
+    height: auto;
+    max-width: 900px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    position: static;
+    overflow: visible;
+    box-shadow: 0 3px 20px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.about-me{
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+}
+
+.social-button{
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-self: space-between;    
+    font-size: 16px;
+    cursor: pointer;
+    gap: 50px;
+    justify-content: center;    
+}
+
+.github-Icon{
+    color: #171515 ;
+}
+
+.linkedin-Icon{
+    color: #0072b1;
+}
+.twitter-Icon{
+    color: #00acee;
+} 
+
+.heading{
+   max-width: 800%;
+}
+
+.project-container-holder{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    /* position: static;
+    overflow: visible; */
+    box-shadow: 0 3px 20px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.project1{
+
+    width: 50%;
+    text-align: center;
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    
+}
+
+.project2{
+    width: 50%;
+    text-align: center;
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+}
+
+.project3{
+    width: 50%;
+    text-align: center;
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+}
+
+.project4{
+    width: 50%;
+    text-align: center;
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+}
+
+.project5{
+    width: 50%;
+    text-align: center;
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+}
+
+.projects-heading{
+    font: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .myproject  {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+  .myproject-holder::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
