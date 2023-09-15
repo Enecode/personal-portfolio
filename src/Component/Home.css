@@ -1,15 +1,16 @@
 .home-container {
     display: flex;
-    justify-content: flex-start;
+    background-color: #0072b1;
+    /* justify-content: flex-start; */
 }
 
 .home-container > div {
     background-color: #fff;
     width: 100%;
-    margin: 10px;
+    /* margin: 10px; */
     text-align: center;
-    line-height: 75px;
-    font-size: 30px; 
+    /* line-height: 75px; */
+    font-size: 30px;
 }
 
 .myphoto{
@@ -23,7 +24,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    display: flex;
+    /* display: flex; */
 }
 
 strong{
@@ -108,7 +109,24 @@ strong{
    max-width: 800%;
 }
 
-.project-container-holder{
+* {
+    box-sizing: border-box;
+  }
+
+  .myproject  {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+  .myproject-holder::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+  .project-container-holder {
     display: flex;
     flex-wrap: wrap;
     width: auto;
@@ -123,74 +141,26 @@ strong{
     margin-left: auto;
     margin-right: auto;
     padding: 40px 50px;
-    /* position: static;
-    overflow: visible; */
     box-shadow: 0 3px 20px rgba(0,0,0,.1);
     text-align: center;
-}
-
-.project1{
-
-    width: 50%;
-    text-align: center;
-    color: #222;
-    letter-spacing: .02em;
-    font-family: Switzer,sans-serif;
-    
-}
-
-.project2{
-    width: 50%;
-    text-align: center;
-    color: #222;
-    letter-spacing: .02em;
-    font-family: Switzer,sans-serif;
-}
-
-.project3{
-    width: 50%;
-    text-align: center;
-    color: #222;
-    letter-spacing: .02em;
-    font-family: Switzer,sans-serif;
-}
-
-.project4{
-    width: 50%;
-    text-align: center;
-    color: #222;
-    letter-spacing: .02em;
-    font-family: Switzer,sans-serif;
-}
-
-.project5{
-    width: 50%;
-    text-align: center;
-    color: #222;
-    letter-spacing: .02em;
-    font-family: Switzer,sans-serif;
-}
-
-.projects-heading{
+  }
+  
+  @media screen and (max-width: 900px) {
+    .project-container-holder {
+      width: 100%;
+    }
+  }
+  
+  .project1, .project2, .project3, .project4, .project5 {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .projects-heading {
     font: 100;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     font-size: 50px;
-
-}
-
-* {
-    box-sizing: border-box;
-  }
   
-  .myproject  {
-    float: left;
-    width: 20%;
-    padding: 5px;
-  }
-
-  .myproject-holder::after {
-    content: "";
-    clear: both;
-    display: table;
   }
