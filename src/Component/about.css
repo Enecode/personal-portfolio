@@ -1,8 +1,6 @@
-* {
-    box-sizing: border-box;
-  }
+
   
-  .profile-about {
+.profile-about {
     float: left;
     width: 50%;
     padding: 5px;
