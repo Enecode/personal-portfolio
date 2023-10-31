@@ -40,46 +40,6 @@ function Home(){
                     </div>
                 </div>
             </div>
-            <div className="project-container">
-                <h4 className="projects-heading">Project</h4>
-                <div className="myproject-holder project-container-holder">
-                    <div className="myproject project1">
-                        <h4>Electronic Health Management System</h4>
-                        <p>Electronic Health Management System is a web application that helps to manage patients' health records. It is built with React, Django Rest Framework, and Postgres SQL.</p>
-                        <a href="https://github.com/Enecode/Ehealth-web-app" className="github-link">
-                            <FontAwesomeIcon className="github-Icon" icon={faGithub} size="3x" />
-                        </a>
-                    </div>
-                    <div className="myproject project2">
-                        <h4>Electronic Wallet</h4>
-                        <p>I collaborated with a team to design and implement an e-wallet app using Java, MySQL, and React.js for the front end. I implemented the front-end.</p>
-                        <a href="https://github.com/Enecode/e-wallet-frontend" className="github-link">
-                            <FontAwesomeIcon className="github-Icon" icon={faGithub} size="3x" />
-                        </a>
-                    </div>
-                    <div className="myproject project3">
-                        <h4>Web Blog</h4>
-                        <p>I built a web blog using Django and Postgres SQL. It is a simple blog that allows users to create, read, update, and delete posts.</p>
-                        <a href="https://github.com/Enecode/myblog" className="github-link">
-                            <FontAwesomeIcon className="github-Icon" icon={faGithub} size="3x" />
-                        </a>
-                    </div>  
-                    <div className="myproject project4">
-                        <h4 >My Digital Profile</h4>
-                        <p>I built my digital profile using React.js and CSS. It is a simple web application that showcases my skills and experiences.</p>
-                        <a href="https://enecode.github.io/digital-profile" className="github-link">
-                            <FontAwesomeIcon className="github-Icon" icon={faGithub} size="3x" />
-                        </a>
-                    </div>
-                    <div className="myproject project5">
-                        <h4>Meme Generator With Reactjs</h4>
-                        <p>I built a meme generator using React.js. It is a simple web application that allows users to generate memes.</p>
-                        <a href="https://github.com/Enecode/meme-generator-react" className="github-link">
-                            <FontAwesomeIcon className="github-Icon" icon={faGithub} size="3x" />
-                        </a>
-                    </div>
-                </div>    
-            </div>
             <hr />
             <Footer />
         </>
