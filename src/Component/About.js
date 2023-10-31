@@ -3,12 +3,16 @@ import profile from "../image/myimage.jpg";
 import "./about.css";
 import { Link } from 'react-router-dom'
 import Footer from './Footer';
+import Nav from './Nav';
 
 
 
 function About(){
     return(
-        < div className="profile-about-content">
+        <div className="profile-about-content">
+            <Nav />
+            {/* <div className="profile-about-content"> */}
+        {/* < div className="profile-about-content"> */}
             <div className="profile-about my-about-image">
                 <img src={profile} alt="Isah Jacob" className="profile-image" />
             </div>
