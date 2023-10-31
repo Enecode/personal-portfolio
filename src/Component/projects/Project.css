@@ -1,0 +1,71 @@
+.title{
+    font-family: Switzer,sans-serif;
+    font-weight: 700;
+    color: #222;
+    letter-spacing: .02em;
+    /* background-color: #6e97ff; */
+}
+
+.description{
+    font-size: 16px;
+    font-family: Switzer,sans-serif;
+    font-weight: 400;
+    color: #222;
+    text-justify: justify;
+    width: 70%;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.myproject  {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+.myproject-holder::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.project-container-holder {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+@media screen and (max-width: 900px) {
+    .project-container-holder {
+      width: 100%;
+    }
+  }
+  
+ hr, .project1, .project2, .project3, .project4, .project5 {
+    width: 100%;
+    text-align: left;
+  }
+
+  
+.projects-heading {
+    font: 100;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+hr{
+    border: 1px solid #6e97ff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
