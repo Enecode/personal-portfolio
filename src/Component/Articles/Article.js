@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from '../Nav';
-import Footer from '../Footer';
+import Nav from '../../Component/Nav/Nav.js';
+import Footer from '../../Component/Footer/Footer.js';
 import './Article.css'; 
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGithub } from '@fortawesome/free-brands-svg-icons';
