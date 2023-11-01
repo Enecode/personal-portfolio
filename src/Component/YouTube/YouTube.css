@@ -1,0 +1,95 @@
+/* FILEPATH: /home/jacob/Desktop/personal-portfolio/src/Component/YouTube/YouTube.css */
+
+/* Style for YouTube container */
+/* .YouTube-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 1rem;
+} */
+
+.youtube-video {
+    float: left;
+    width: 15%;
+
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.content-container:after {
+    content: "";
+    display: table;
+    clear: both;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+/* Style for content container */
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: 0 1rem;
+}
+
+/* Style for youtube video */
+.youtube-video {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; 
+
+}
+.youtube-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    margin: 1rem 0;
+}
+
+
+.youtube-video iframe {
+    border: none;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .youtube-video {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .youtube-video {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .youtube-video {
+        width: 100%;
+    }
+}
