@@ -1,0 +1,213 @@
+.home-container {
+    display: flex;
+    background-color: #0072b1;
+}
+
+.home-container > div {
+  background-color: #fff;
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+.myHeading{
+  letter-spacing: .06em;
+  margin-bottom: 10px;
+  font-family: Switzer,sans-serif;
+  font-weight: 100;
+  line-height: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+.paragraph{
+  color: #222;
+  font-family: Switzer,sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.3;
+  
+}
+
+.myphoto{
+    padding: 10px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    border: 5px solid #111dff;
+    box-shadow: 0 3px 20px rgba(0,0,0,.1);
+}
+
+.myphoto:hover {
+  transform: scale(0.3);
+  transition: all 0.3s ease-out;
+  cursor: pointer;
+}
+
+.about-container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+strong{
+    font-family: Switzer,sans-serif;
+    font-weight: 700;
+    color: #111dff;
+}
+
+hr{
+  border: 1px solid #6e97ff;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-title{
+    color: #222;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+}
+
+.about-paragraph{
+  color: #222;
+  font-family: Switzer,sans-serif;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  line-height: 1.3;
+}
+
+.about-container-holder{
+    color: #6e97ff;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    font-family: Switzer,sans-serif;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.about-header-container{
+    width: auto;
+    height: auto;
+    max-width: 900px;
+    text-align: left;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 50px;
+    position: static;
+    overflow: visible;
+    text-align: center;
+}
+
+.about-me{
+    color: #111dff;
+    letter-spacing: .02em;
+    font-family: Switzer,sans-serif;
+    line-height: 43.2px;
+}
+
+
+.social-button{
+    color: #fff;
+    padding: 10px 10px;
+    display: flex;
+    justify-self: space-between;    
+    font-size: 16px;
+    cursor: pointer;
+    gap: 50px;
+    justify-content: center;    
+}
+
+.github-Icon{
+    color: #171515 ;
+}
+
+.linkedin-Icon{
+    color: #0072b1;
+}
+.twitter-Icon{
+    color: #00acee;
+} 
+
+.heading{
+   max-width: 800%;
+}
+
+.title{
+    font-size: 30px;
+    font-family: Switzer,sans-serif;
+    font-weight: 700;
+    line-height: 43.2px;
+    color: #222;
+    letter-spacing: .02em;
+}
+
+.description{
+    font-size: 16px;
+    font-family: Switzer,sans-serif;
+    font-weight: 400;
+    color: #222;
+    text-justify: justify;
+    width: 70%;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+.myproject  {
+    float: left;
+    width: 20%;
+    padding: 5px;
+  }
+
+.myproject-holder::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+.project-container-holder {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    height: auto;
+    max-width: 900px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 25px;
+    text-align: center;
+  }
+  
+@media screen and (max-width: 900px) {
+    .about-container-holder {
+      width: 100%;
+    }
+  }
+
+.youtube-Icon{
+  color: #ff0000;
+}
