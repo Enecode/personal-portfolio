@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
-import Footer from "../Footer";
+import Footer from "../../Component/Footer/Footer.js";
 import "./Project.css";
-import Nav from "../Nav.js";
+import Nav from "../../Component/Nav/Nav.js";
 
 function Project() {
     return (
