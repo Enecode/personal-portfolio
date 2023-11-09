@@ -46,8 +46,11 @@
 }
 
 .myphoto:hover {
-  transform: scale(0.3);
-  transition: all 0.3s ease-out;
+  transform: scale(0.7);
+  transition: all 0.7s ease-in;
+  color: #171515;
+  background-color: #171515;
+  opacity: 0.5;
   cursor: pointer;
 }
 

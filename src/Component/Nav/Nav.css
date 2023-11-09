@@ -127,11 +127,11 @@ link{
     color: #ee4a03;
 }
 
-a:hover{
+/* a:hover{
     background-color: #5a60ea;
     color: #fff;
     padding: 5px;
-}
+} */
 a{
     text-decoration: none;
     color: #5a60ea;
