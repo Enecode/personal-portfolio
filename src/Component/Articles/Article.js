@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../../Component/Nav/Nav.js';
-import { BrowserRouter as Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import Footer from '../../Component/Footer/Footer.js';
 import './Article.css'; 
 
