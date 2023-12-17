@@ -1,9 +1,9 @@
 import React from 'react';
 import Nav from '../../Component/Nav/Nav.js';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import Footer from '../../Component/Footer/Footer.js';
 import './Article.css'; 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import ListInPython from '../../Component/Posts/ListInPython.js';
 
 const Article = () => {
     return (
@@ -74,6 +74,18 @@ const Article = () => {
                     <button className="read-more">
                         <a href="https://dev.to/jacobe/why-is-a-list-the-best-python-data-structure-2lo4" className="readmore-link">Read More</a>
                     </button>
+                </div>
+
+                <div className="myarticle articles">
+                    <h4 className="title">List in Python</h4>
+                    <p className="article-description">Understand what lists are and how they differ from other data structures. Creating Lists: Learn various methods to create lists and add elements. Accessing Elements: Explore how to access individual elements and slices of a list. Modifying Lists: Discover different ways to modify and update list elements.</p>
+                    <button className="read-more">
+                        {/* <a className="readmore-link"> */}
+                           
+                        <Link to="/ListInPython"> Read More</Link>
+                        {/* </a> */}
+                    </button>
+                    {/* <Route path="/list-article" component={ListInPython} /> */}
                 </div>
 
                 <hr />
