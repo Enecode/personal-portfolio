@@ -1,9 +1,9 @@
 import React from 'react';
 import Nav from '../../Component/Nav/Nav.js';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Link } from 'react-router-dom';
 import Footer from '../../Component/Footer/Footer.js';
 import './Article.css'; 
-import ListInPython from '../../Component/Posts/ListInPython.js';
+
 
 const Article = () => {
     return (
