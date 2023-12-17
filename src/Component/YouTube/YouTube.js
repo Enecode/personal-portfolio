@@ -26,13 +26,21 @@ const VideoCard = styled(Card)`
 `;
 
 const VideoTitle = styled(Typography)`
-  font-size: 1.2em;
+  // font-size: 1.2em;
   margin-bottom: 10px;
+  font-family: Switzer,sans-serif;
+  // font-weight: 700;
+  color: #6e97ff;
+  // letter-spacing: .02em;
+  // font-size: 2rem;
+  font-weight: bold;
 `;
 
 const VideoDescription = styled(Typography)`
   font-size: 1em;
   margin-bottom: 15px;
+  justify-content: left;
+  text-align: left;
 `;
 
 const LinksContainer = styled.div`
@@ -48,21 +56,21 @@ const LinkButton = styled(Button)`
 const videos = [
   {
     title: 'Dictionary in Python',
-    description: 'In this video, I cover everything you need to know about dictionaries in Python, from the basics to advanced usage. Learn how to create, manipulate, and leverage key-value pairs efficiently. Whether you are a Python beginner or looking to enhance your skills, this tutorial is your gateway to mastering dictionaries',
+    description: 'In this video, I cover everything you need to know about dictionaries in Python.',
     youtubeLink: 'https://youtu.be/Kyi1YhC1pB8',
     articleLink: 'https://youtu.be/Kyi1YhC1pB8',
   },
 
   {
     title: 'Tuple in python',
-    description: 'Tuples are used to store multiple items in a single variable. Tuple is one of 4 built-in data types in Python used to store collections of data; the other 3 are List, Set, and Dictionary, all with different qualities and usages. In this video, you will learn everything you need to know about tuple in python',
+    description: 'In this video, you will learn everything you need to know about tuple in python',
     youtubeLink: 'https://youtu.be/cMnCB8RjrO8',
     articleLink: 'https://youtu.be/cMnCB8RjrO8',
   },
 
   {
     title: 'Loop in python',
-    description: 'In this video, we dive deep into the fundamental concepts of loop structures in Python and explore the intricacies of control flow within the language. Whether you are just starting your coding journey or looking to refresh your skills, this tutorial will help you understand how loops and control flow work in Python. Subscribe, like, and stay tuned for more informative Python tutorials!',
+    description: 'In this video, we dive deep into the fundamental concepts of loop structures in Python.',
     youtubeLink: 'https://youtu.be/hLZpaM8eLHI',
     articleLink: 'https://youtu.be/hLZpaM8eLHI',
   },

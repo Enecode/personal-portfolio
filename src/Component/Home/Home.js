@@ -7,11 +7,6 @@ import { faTwitter, faGithub, faLinkedin, faYoutube } from "@fortawesome/free-br
 import Footer from "../../Component/Footer/Footer.js";
 
 import styled from '@emotion/styled';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faLinkedin, faGithub, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-// import { MyImage } from 'path-to-your-image-component'; // Import your image component
-
-// Styled components for better readability
 const HomeContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -35,7 +30,14 @@ const MyPhoto = styled.img`
 `;
 
 const HeaderTitle = styled.h3`
-  margin: 10px 0;
+// font-size: 1.2em;
+margin-bottom: 10px;
+font-family: Switzer,sans-serif;
+// font-weight: 700;
+color: #6e97ff;
+// letter-spacing: .02em;
+// font-size: 2rem;
+font-weight: bold;
 `;
 
 const AboutMe = styled.strong`
@@ -57,7 +59,12 @@ const AboutParagraph = styled.p`
 
 const Description = styled.p`
   text-align: center;
-//   margin-top: 20px;
+  font-size: 16px;
+  font-family: Switzer,sans-serif;
+  // font-weight: 400;
+  text-justify: justify;
+  // width: 70%;
+
 `;
 
 const WhatIDo = styled.div`
@@ -67,6 +74,14 @@ const WhatIDo = styled.div`
 `;
 
 const WhatIDoText = styled.p`
+  font-weight: bold;
+  // font-size: 1.2em;
+  margin-bottom: 10px;
+  font-family: Switzer,sans-serif;
+  // font-weight: 700;
+  color: #6e97ff;
+  // letter-spacing: .02em;
+  // font-size: 2rem;
   font-weight: bold;
 `;
 
@@ -79,12 +94,22 @@ const WhatIDoContainer = styled.div`
 `;
 
 const WhatIDoItem = styled.div`
-  width: 45%;
+  width: 35%;
   margin-bottom: 20px;
+  // text-align: left;
+  // justify-content: left;
 `;
 
 const Title = styled.h3`
-  margin-bottom: 10px;
+  // margin-bottom: 10px;
+  // font-size: 1.2em;
+  // margin-bottom: 10px;
+  font-family: Switzer,sans-serif;
+  // font-weight: 700;
+  color: #6e97ff;
+  // letter-spacing: .02em;
+  // font-size: 2rem;
+  font-weight: bold;
 `;
 
 // Rest of your components...
